@@ -1,4 +1,4 @@
-package com.freecrm.qa.testCases;
+package com.freecrm.qa.pageTests;
 
 public class LoginPageTest {
 }
