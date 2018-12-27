@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.freecrm.qa.testCases.LoginPageTest" duration-ms="6" started-at="2018-12-27T01:45:44Z" finished-at="2018-12-27T01:45:44Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="6" started-at="2018-12-27T01:45:44Z" finished-at="2018-12-27T01:45:44Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+</testng-results>
