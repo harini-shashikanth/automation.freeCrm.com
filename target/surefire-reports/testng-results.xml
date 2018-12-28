@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="com.freecrm.qa.testCases.LoginPageTest" duration-ms="6" started-at="2018-12-27T01:45:44Z" finished-at="2018-12-27T01:45:44Z">
+  <suite name="Command line suite" duration-ms="19" started-at="2018-12-28T19:45:33Z" finished-at="2018-12-28T19:45:33Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="6" started-at="2018-12-27T01:45:44Z" finished-at="2018-12-27T01:45:44Z">
+    <test name="Command line test" duration-ms="19" started-at="2018-12-28T19:45:33Z" finished-at="2018-12-28T19:45:33Z">
     </test> <!-- Command line test -->
-  </suite> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
