@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="freecrm.com Web Application  - Test Automation Test Suite">
+	
+	<listeners>
+		<listener class-name="com.freecrm.qa.eventListener.ExtentReporter" />
+	</listeners>
+	
+	<test thread-count="2" name="Free CRM App Test Cases for Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+			<class name="com.crm.qa.testcases.HomePageTest"></class> <class name="com.crm.qa.testcases.ContactsPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="2" name="Free CRM Application - Test Cases for Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+
+</suite>
