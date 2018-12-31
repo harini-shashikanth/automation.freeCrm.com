@@ -1,6 +1,5 @@
 package com.freecrm.qa.eventListener;
 
-
 import java.io.IOException;
 
 import org.openqa.selenium.By;
@@ -9,10 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
+import com.freecrm.qa.common.Util;
 
-
-public class WebEventListener  implements WebDriverEventListener {
-
+public class WebEventListener implements WebDriverEventListener {
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("Before navigating to: '" + url + "'");
 	}
@@ -56,7 +54,7 @@ public class WebEventListener  implements WebDriverEventListener {
 	public void onException(Throwable error, WebDriver driver) {
 		System.out.println("Exception occured: " + error);
 		try {
-			TestUtil.takeScreenshotAtEndOfTest();
+			Util.takeScreenshotAtEndOfTest(driver);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -81,72 +79,57 @@ public class WebEventListener  implements WebDriverEventListener {
 
 	public void beforeAlertAccept(WebDriver driver) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void afterAlertAccept(WebDriver driver) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void afterAlertDismiss(WebDriver driver) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void beforeAlertDismiss(WebDriver driver) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void beforeNavigateRefresh(WebDriver driver) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void afterNavigateRefresh(WebDriver driver) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public <X> void afterGetScreenshotAs(OutputType<X> arg0, X arg1) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	public void afterGetText(WebElement arg0, WebDriver arg1, String arg2) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	public void afterSwitchToWindow(String arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	public <X> void beforeGetScreenshotAs(OutputType<X> arg0) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	public void beforeGetText(WebElement arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
-		
 	}
-
 }

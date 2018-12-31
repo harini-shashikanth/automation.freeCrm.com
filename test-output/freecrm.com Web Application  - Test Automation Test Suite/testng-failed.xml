@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [freecrm.com Web Application  - Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.freecrm.qa.eventListener.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="Free CRM App Test Cases for Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.freecrm.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="login"/>
+          <include name="loginPageContactLnkTest"/>
+          <include name="setUp"/>
+          <include name="loginPageCustomersLnkTest"/>
+          <include name="loginPagePricingLnkTest"/>
+          <include name="loginPageSupportLnkTest"/>
+          <include name="loginPageSignUpLnkTest"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases for Firefox(failed) -->
+</suite> <!-- Failed suite [freecrm.com Web Application  - Test Automation Test Suite] -->
