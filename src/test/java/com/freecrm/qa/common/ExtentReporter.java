@@ -1,4 +1,4 @@
-package com.freecrm.qa.eventListener;
+package com.freecrm.qa.common;
 
 import java.io.File;
 import java.util.Calendar;

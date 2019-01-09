@@ -1,4 +1,4 @@
 package com.freecrm.qa.testCases;
 
-public class HomePageTest {
+public class MyHomePageTest {
 }

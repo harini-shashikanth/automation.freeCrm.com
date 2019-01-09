@@ -1,14 +1,10 @@
-package com.freecrm.qa.eventListener;
-
-import java.io.IOException;
+package com.freecrm.qa.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
-
-import com.freecrm.qa.common.Util;
 
 public class WebEventListener implements WebDriverEventListener {
 	public void beforeNavigateTo(String url, WebDriver driver) {
@@ -17,6 +13,8 @@ public class WebEventListener implements WebDriverEventListener {
 
 	public void afterNavigateTo(String url, WebDriver driver) {
 		System.out.println("Navigated to:'" + url + "'");
+		Browser.takeScreenshot(driver, "afterNavigateTo", 0, false);
+		;
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver) {
@@ -33,6 +31,7 @@ public class WebEventListener implements WebDriverEventListener {
 
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		System.out.println("Clicked on: " + element.toString());
+		Browser.takeScreenshot(driver, "afterClickOn", 2, false);
 	}
 
 	public void beforeNavigateBack(WebDriver driver) {
@@ -53,11 +52,8 @@ public class WebEventListener implements WebDriverEventListener {
 
 	public void onException(Throwable error, WebDriver driver) {
 		System.out.println("Exception occured: " + error);
-		try {
-			Util.takeScreenshotAtEndOfTest(driver);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		Browser.takeScreenshot(driver, "Exception", 2, true);
+
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {

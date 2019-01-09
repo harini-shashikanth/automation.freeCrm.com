@@ -1,32 +1,33 @@
 package com.freecrm.qa.pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.freecrm.qa.common.Browser;
 
 public class LoginPage extends Page {
 	@FindBy(xpath = "//img[contains(@class,'img-responsive')]")
 	private WebElement crmLogo;
 
-	@FindBy(xpath = "//*[@id=\"navbar-collapse\"]/ul/li[1]/a")
+	@FindBy(xpath = "//a[contains(text(),'Features')]")
 	private WebElement featuresLnk;
 
-	@FindBy(xpath = "//*[@id=\"navbar-collapse\"]/ul/li[2]/a/font")
+	@FindBy(xpath = "//a[contains(text(),'Sign Up')]")
 	private WebElement signUpLnk;
 
-	@FindBy(xpath = "//*[@id=\"navbar-collapse\"]/ul/li[3]/a")
+	@FindBy(xpath = "//a[contains(text(),'Pricing')]")
 	private WebElement pricingLnk;
 
-	@FindBy(xpath = "//*[@id=\"navbar-collapse\"]/ul/li[4]/a")
+	@FindBy(xpath = "//a[contains(text(),'Customers')]")
 	private WebElement customersLnk;
 
-	@FindBy(xpath = "//*[@id=\"navbar-collapse\"]/ul/li[5]/a")
+	@FindBy(xpath = "//a[contains(text(),'Contact')]")
 	private WebElement contactLnk;
 
-	@FindBy(xpath = "//*[@id=\"navbar-collapse\"]/ul/li[6]/a")
+	@FindBy(xpath = "//a[contains(text(),'Support')]")
 	private WebElement supportLnk;
 
 	@FindBy(name = "username")
@@ -35,7 +36,7 @@ public class LoginPage extends Page {
 	@FindBy(name = "password")
 	WebElement password;
 
-	@FindBy(xpath = "//*[@id=\"loginForm\"]/div/div/input")
+	@FindBy(xpath = "//input[@type='submit']")
 	WebElement loginBtn;
 
 	@FindBy(xpath = "//button[contains(text(),'Sign Up')]")
@@ -44,21 +45,25 @@ public class LoginPage extends Page {
 	public LoginPage(WebDriver webDriver) {
 		this.driver = webDriver;
 		PageFactory.initElements(driver, this);
+
 	}
 
-	public HomePage login(String un, String pwd) {
+	public MyHomePage login(String un, String pwd) {
+
 		username.sendKeys(un);
 		password.sendKeys(pwd);
+
 		// loginBtn.click();
 		// Actions actions = new Actions(driver);
 		// actions.moveToElement(loginBtn).click().build().perform();
 		// actions.moveToElement(loginBtn).click();
-		// JavascriptExecutor js = (JavascriptExecutor) driver;
-		// js.executeScript("arguments[0].click();", loginBtn);
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
-		loginBtn.click();
-		return new HomePage(driver);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", loginBtn);
+		Browser.takeScreenshot(driver, "afterLogin", 5, false);
+		// WebDriverWait wait = new WebDriverWait(driver, 10);
+		// wait.until(ExpectedConditions.elementToBeClickable(loginBtn));
+		// loginBtn.click();
+		return new MyHomePage(driver);
 	}
 
 	public WebElement getCrmLogo() {

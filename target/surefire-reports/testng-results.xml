@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="36" passed="36">
   <reporter-output>
   </reporter-output>
-  <suite name="freecrm.com Web Application  - Test Automation Test Suite" duration-ms="18089" started-at="2018-12-31T00:23:06Z" finished-at="2018-12-31T00:23:24Z">
+  <suite name="freecrm.com Web Application  - Test Automation Test Suite" duration-ms="78670" started-at="2019-01-09T12:35:39Z" finished-at="2019-01-09T12:36:58Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases for Firefox" duration-ms="18089" started-at="2018-12-31T00:23:06Z" finished-at="2018-12-31T00:23:24Z">
+    <test name="Free CRM App Test Cases for Firefox" duration-ms="22139" started-at="2019-01-09T12:35:39Z" finished-at="2019-01-09T12:36:01Z">
       <class name="com.freecrm.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="setUp" is-config="true" duration-ms="12768" started-at="2018-12-31T00:23:06Z" finished-at="2018-12-31T00:23:19Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="setUp" is-config="true" duration-ms="13468" started-at="2019-01-09T12:35:39Z" finished-at="2019-01-09T12:35:53Z">
           <params>
             <param index="0">
               <value>
@@ -18,47 +18,212 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageContactLnkTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageContactLnkTest" duration-ms="139" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageContactLnkTest -->
-        <test-method status="PASS" signature="loginPageCustomersLnkTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageCustomersLnkTest" duration-ms="41" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageCustomersLnkTest -->
-        <test-method status="PASS" signature="loginPageFeaturesLnkTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageFeaturesLnkTest" duration-ms="81" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageFeaturesLnkTest -->
-        <test-method status="PASS" signature="loginPageIsLogoDisplayedTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageIsLogoDisplayedTest" duration-ms="172" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageIsLogoDisplayedTest -->
-        <test-method status="PASS" signature="loginPagePricingLnkTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPagePricingLnkTest" duration-ms="43" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPagePricingLnkTest -->
-        <test-method status="PASS" signature="loginPageSignUpLnkTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageSignUpLnkTest" duration-ms="55" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageSignUpLnkTest -->
-        <test-method status="PASS" signature="loginPageSupportLnkTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageSupportLnkTest" duration-ms="54" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageSupportLnkTest -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageTitleTest" duration-ms="8" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:19Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageTitleTest" duration-ms="120" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="login" duration-ms="4015" started-at="2018-12-31T00:23:19Z" finished-at="2018-12-31T00:23:23Z">
+        <test-method status="PASS" signature="loginPageContactLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageContactLnkTest" duration-ms="103" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageContactLnkTest -->
+        <test-method status="PASS" signature="loginPageCustomersLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageCustomersLnkTest" duration-ms="55" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageCustomersLnkTest -->
+        <test-method status="PASS" signature="loginPageFeaturesLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageFeaturesLnkTest" duration-ms="45" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFeaturesLnkTest -->
+        <test-method status="PASS" signature="loginPageIsLogoDisplayedTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageIsLogoDisplayedTest" duration-ms="188" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageIsLogoDisplayedTest -->
+        <test-method status="PASS" signature="loginPagePricingLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPagePricingLnkTest" duration-ms="111" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagePricingLnkTest -->
+        <test-method status="PASS" signature="loginPageSignUpLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageSignUpLnkTest" duration-ms="70" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSignUpLnkTest -->
+        <test-method status="PASS" signature="loginPageSupportLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="loginPageSupportLnkTest" duration-ms="63" started-at="2019-01-09T12:35:53Z" finished-at="2019-01-09T12:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSupportLnkTest -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="login" duration-ms="5442" started-at="2019-01-09T12:35:54Z" finished-at="2019-01-09T12:35:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="teardown" is-config="true" duration-ms="659" started-at="2018-12-31T00:23:23Z" finished-at="2018-12-31T00:23:24Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@47f6473]" name="teardown" is-config="true" duration-ms="2418" started-at="2019-01-09T12:35:59Z" finished-at="2019-01-09T12:36:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
     </test> <!-- Free CRM App Test Cases for Firefox -->
+    <test name="Free CRM Application - Test Cases for Chrome" duration-ms="18203" started-at="2019-01-09T12:36:01Z" finished-at="2019-01-09T12:36:20Z">
+      <class name="com.freecrm.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="setUp" is-config="true" duration-ms="7555" started-at="2019-01-09T12:36:01Z" finished-at="2019-01-09T12:36:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPageTitleTest" duration-ms="12" started-at="2019-01-09T12:36:09Z" finished-at="2019-01-09T12:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="loginPageContactLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPageContactLnkTest" duration-ms="73" started-at="2019-01-09T12:36:09Z" finished-at="2019-01-09T12:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageContactLnkTest -->
+        <test-method status="PASS" signature="loginPageCustomersLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPageCustomersLnkTest" duration-ms="73" started-at="2019-01-09T12:36:09Z" finished-at="2019-01-09T12:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageCustomersLnkTest -->
+        <test-method status="PASS" signature="loginPageFeaturesLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPageFeaturesLnkTest" duration-ms="84" started-at="2019-01-09T12:36:09Z" finished-at="2019-01-09T12:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFeaturesLnkTest -->
+        <test-method status="PASS" signature="loginPageIsLogoDisplayedTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPageIsLogoDisplayedTest" duration-ms="115" started-at="2019-01-09T12:36:09Z" finished-at="2019-01-09T12:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageIsLogoDisplayedTest -->
+        <test-method status="PASS" signature="loginPagePricingLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPagePricingLnkTest" duration-ms="92" started-at="2019-01-09T12:36:09Z" finished-at="2019-01-09T12:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagePricingLnkTest -->
+        <test-method status="PASS" signature="loginPageSignUpLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPageSignUpLnkTest" duration-ms="517" started-at="2019-01-09T12:36:09Z" finished-at="2019-01-09T12:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSignUpLnkTest -->
+        <test-method status="PASS" signature="loginPageSupportLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="loginPageSupportLnkTest" duration-ms="92" started-at="2019-01-09T12:36:10Z" finished-at="2019-01-09T12:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSupportLnkTest -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="login" duration-ms="8695" started-at="2019-01-09T12:36:10Z" finished-at="2019-01-09T12:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@153f5a29]" name="teardown" is-config="true" duration-ms="890" started-at="2019-01-09T12:36:19Z" finished-at="2019-01-09T12:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+    </test> <!-- Free CRM Application - Test Cases for Chrome -->
+    <test name="Free CRM Application - Test Cases for IE" duration-ms="25925" started-at="2019-01-09T12:36:20Z" finished-at="2019-01-09T12:36:46Z">
+      <class name="com.freecrm.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="setUp" is-config="true" duration-ms="14252" started-at="2019-01-09T12:36:20Z" finished-at="2019-01-09T12:36:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPageTitleTest" duration-ms="14" started-at="2019-01-09T12:36:34Z" finished-at="2019-01-09T12:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="loginPageContactLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPageContactLnkTest" duration-ms="301" started-at="2019-01-09T12:36:34Z" finished-at="2019-01-09T12:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageContactLnkTest -->
+        <test-method status="PASS" signature="loginPageCustomersLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPageCustomersLnkTest" duration-ms="2066" started-at="2019-01-09T12:36:34Z" finished-at="2019-01-09T12:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageCustomersLnkTest -->
+        <test-method status="PASS" signature="loginPageFeaturesLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPageFeaturesLnkTest" duration-ms="1508" started-at="2019-01-09T12:36:36Z" finished-at="2019-01-09T12:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFeaturesLnkTest -->
+        <test-method status="PASS" signature="loginPageIsLogoDisplayedTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPageIsLogoDisplayedTest" duration-ms="168" started-at="2019-01-09T12:36:38Z" finished-at="2019-01-09T12:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageIsLogoDisplayedTest -->
+        <test-method status="PASS" signature="loginPagePricingLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPagePricingLnkTest" duration-ms="159" started-at="2019-01-09T12:36:38Z" finished-at="2019-01-09T12:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagePricingLnkTest -->
+        <test-method status="PASS" signature="loginPageSignUpLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPageSignUpLnkTest" duration-ms="236" started-at="2019-01-09T12:36:38Z" finished-at="2019-01-09T12:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSignUpLnkTest -->
+        <test-method status="PASS" signature="loginPageSupportLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="loginPageSupportLnkTest" duration-ms="182" started-at="2019-01-09T12:36:38Z" finished-at="2019-01-09T12:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSupportLnkTest -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="login" duration-ms="6504" started-at="2019-01-09T12:36:39Z" finished-at="2019-01-09T12:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@59e84876]" name="teardown" is-config="true" duration-ms="527" started-at="2019-01-09T12:36:45Z" finished-at="2019-01-09T12:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+    </test> <!-- Free CRM Application - Test Cases for IE -->
+    <test name="Free CRM Application - Test Cases for Edge" duration-ms="12181" started-at="2019-01-09T12:36:46Z" finished-at="2019-01-09T12:36:58Z">
+      <class name="com.freecrm.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="setUp" is-config="true" duration-ms="5379" started-at="2019-01-09T12:36:46Z" finished-at="2019-01-09T12:36:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPageTitleTest" duration-ms="27" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="loginPageContactLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPageContactLnkTest" duration-ms="38" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageContactLnkTest -->
+        <test-method status="PASS" signature="loginPageCustomersLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPageCustomersLnkTest" duration-ms="32" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageCustomersLnkTest -->
+        <test-method status="PASS" signature="loginPageFeaturesLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPageFeaturesLnkTest" duration-ms="35" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFeaturesLnkTest -->
+        <test-method status="PASS" signature="loginPageIsLogoDisplayedTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPageIsLogoDisplayedTest" duration-ms="33" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageIsLogoDisplayedTest -->
+        <test-method status="PASS" signature="loginPagePricingLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPagePricingLnkTest" duration-ms="13" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagePricingLnkTest -->
+        <test-method status="PASS" signature="loginPageSignUpLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPageSignUpLnkTest" duration-ms="21" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSignUpLnkTest -->
+        <test-method status="PASS" signature="loginPageSupportLnkTest()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="loginPageSupportLnkTest" duration-ms="32" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSupportLnkTest -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="login" duration-ms="5355" started-at="2019-01-09T12:36:51Z" finished-at="2019-01-09T12:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@5cc7c2a6]" name="teardown" is-config="true" duration-ms="1208" started-at="2019-01-09T12:36:57Z" finished-at="2019-01-09T12:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+    </test> <!-- Free CRM Application - Test Cases for Edge -->
   </suite> <!-- freecrm.com Web Application  - Test Automation Test Suite -->
 </testng-results>
