@@ -8,11 +8,13 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.freecrm.qa.common.Browser;
 import com.freecrm.qa.common.Config;
+import com.freecrm.qa.common.ExcelUtil;
 import com.freecrm.qa.common.PageValues;
 import com.freecrm.qa.pages.LoginPage;
 
@@ -84,18 +86,18 @@ public class LoginPageTest {
 
 	}
 
-	@Test(priority = 1)
-	public void login() {
-		String username = Config.getProperty("default.username");
-		String password = Config.getProperty("default.password");
+	@Test(priority = 1, dataProvider = "login credentials")
+	public void login(String username, String password) {
+		// String username = Config.getProperty("default.username");
+		// String password = Config.getProperty("default.password");
 		loginPage.login(username, password);
 	}
 
-	// @Test(priority = 2)
-	public void loginMultipleUsers() {
-		String username = Config.getProperty("default.username");
-		String password = Config.getProperty("default.password");
-		loginPage.login(username, password);
+	@DataProvider(name="login credentials")
+	public Object[][] getTestDataFromExcel() {
+		log.debug("inside dataprovider method");
+		Object data[][] = ExcelUtil.getTestData(Config.getProperty("testdata.excel.sheet.for.login"));
+		return data;
 	}
 
 	@AfterMethod

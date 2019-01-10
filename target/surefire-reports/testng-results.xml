@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="freecrm.com Web Application  - Test Automation Test Suite" duration-ms="125714" started-at="2019-01-10T01:27:38Z" finished-at="2019-01-10T01:29:44Z">
+  <suite name="freecrm.com Web Application  - Test Automation Test Suite" duration-ms="74144" started-at="2019-01-10T04:54:40Z" finished-at="2019-01-10T04:55:54Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases for Firefox" duration-ms="32436" started-at="2019-01-10T01:27:38Z" finished-at="2019-01-10T01:28:11Z">
+    <test name="Free CRM App Test Cases for Firefox" duration-ms="74144" started-at="2019-01-10T04:54:40Z" finished-at="2019-01-10T04:55:54Z">
       <class name="com.freecrm.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@30b7c004]" name="setUp" is-config="true" duration-ms="10619" started-at="2019-01-10T01:27:38Z" finished-at="2019-01-10T01:27:49Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="12229" started-at="2019-01-10T04:54:40Z" finished-at="2019-01-10T04:54:52Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageContentTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@30b7c004]" name="loginPageContentTest" duration-ms="785" started-at="2019-01-10T01:27:49Z" finished-at="2019-01-10T01:27:50Z">
+        <test-method status="PASS" signature="loginPageContentTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="loginPageContentTest" duration-ms="334" started-at="2019-01-10T04:54:52Z" finished-at="2019-01-10T04:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageContentTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@30b7c004]" name="teardown" is-config="true" duration-ms="2083" started-at="2019-01-10T01:27:50Z" finished-at="2019-01-10T01:27:52Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2176" started-at="2019-01-10T04:54:53Z" finished-at="2019-01-10T04:54:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@30b7c004]" name="setUp" is-config="true" duration-ms="11144" started-at="2019-01-10T01:27:52Z" finished-at="2019-01-10T01:28:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="11183" started-at="2019-01-10T04:54:56Z" finished-at="2019-01-10T04:55:07Z">
           <params>
             <param index="0">
               <value>
@@ -37,141 +37,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@30b7c004]" name="login" duration-ms="5428" started-at="2019-01-10T01:28:03Z" finished-at="2019-01-10T01:28:08Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="login" duration-ms="5439" started-at="2019-01-10T04:55:07Z" data-provider="getTestDataFromExcel" finished-at="2019-01-10T04:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harini]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@30b7c004]" name="teardown" is-config="true" duration-ms="2348" started-at="2019-01-10T01:28:08Z" finished-at="2019-01-10T01:28:11Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2323" started-at="2019-01-10T04:55:12Z" finished-at="2019-01-10T04:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="11689" started-at="2019-01-10T04:55:14Z" finished-at="2019-01-10T04:55:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="login" duration-ms="5602" started-at="2019-01-10T04:55:26Z" data-provider="getTestDataFromExcel" finished-at="2019-01-10T04:55:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harini2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harini2pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2423" started-at="2019-01-10T04:55:32Z" finished-at="2019-01-10T04:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="10424" started-at="2019-01-10T04:55:34Z" finished-at="2019-01-10T04:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="login" duration-ms="6791" started-at="2019-01-10T04:55:45Z" data-provider="getTestDataFromExcel" finished-at="2019-01-10T04:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harini3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPwd!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2970" started-at="2019-01-10T04:55:51Z" finished-at="2019-01-10T04:55:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
     </test> <!-- Free CRM App Test Cases for Firefox -->
-    <test name="Free CRM Application - Test Cases for Chrome" duration-ms="27892" started-at="2019-01-10T01:28:11Z" finished-at="2019-01-10T01:28:39Z">
-      <class name="com.freecrm.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@d4342c2]" name="setUp" is-config="true" duration-ms="10509" started-at="2019-01-10T01:28:11Z" finished-at="2019-01-10T01:28:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageContentTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@d4342c2]" name="loginPageContentTest" duration-ms="453" started-at="2019-01-10T01:28:21Z" finished-at="2019-01-10T01:28:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageContentTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@d4342c2]" name="teardown" is-config="true" duration-ms="813" started-at="2019-01-10T01:28:22Z" finished-at="2019-01-10T01:28:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@d4342c2]" name="setUp" is-config="true" duration-ms="6670" started-at="2019-01-10T01:28:23Z" finished-at="2019-01-10T01:28:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@d4342c2]" name="login" duration-ms="8613" started-at="2019-01-10T01:28:29Z" finished-at="2019-01-10T01:28:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@d4342c2]" name="teardown" is-config="true" duration-ms="831" started-at="2019-01-10T01:28:38Z" finished-at="2019-01-10T01:28:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
-    </test> <!-- Free CRM Application - Test Cases for Chrome -->
-    <test name="Free CRM Application - Test Cases for IE" duration-ms="40477" started-at="2019-01-10T01:28:39Z" finished-at="2019-01-10T01:29:19Z">
-      <class name="com.freecrm.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@769e7ee8]" name="setUp" is-config="true" duration-ms="12788" started-at="2019-01-10T01:28:39Z" finished-at="2019-01-10T01:28:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageContentTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@769e7ee8]" name="loginPageContentTest" duration-ms="4379" started-at="2019-01-10T01:28:52Z" finished-at="2019-01-10T01:28:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageContentTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@769e7ee8]" name="teardown" is-config="true" duration-ms="529" started-at="2019-01-10T01:28:56Z" finished-at="2019-01-10T01:28:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@769e7ee8]" name="setUp" is-config="true" duration-ms="13480" started-at="2019-01-10T01:28:56Z" finished-at="2019-01-10T01:29:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@769e7ee8]" name="login" duration-ms="8771" started-at="2019-01-10T01:29:10Z" finished-at="2019-01-10T01:29:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@769e7ee8]" name="teardown" is-config="true" duration-ms="526" started-at="2019-01-10T01:29:19Z" finished-at="2019-01-10T01:29:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
-    </test> <!-- Free CRM Application - Test Cases for IE -->
-    <test name="Free CRM Application - Test Cases for Edge" duration-ms="24669" started-at="2019-01-10T01:29:19Z" finished-at="2019-01-10T01:29:44Z">
-      <class name="com.freecrm.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@78aab498]" name="setUp" is-config="true" duration-ms="4192" started-at="2019-01-10T01:29:19Z" finished-at="2019-01-10T01:29:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageContentTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@78aab498]" name="loginPageContentTest" duration-ms="172" started-at="2019-01-10T01:29:24Z" finished-at="2019-01-10T01:29:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageContentTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@78aab498]" name="teardown" is-config="true" duration-ms="2629" started-at="2019-01-10T01:29:24Z" finished-at="2019-01-10T01:29:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@78aab498]" name="setUp" is-config="true" duration-ms="10018" started-at="2019-01-10T01:29:26Z" finished-at="2019-01-10T01:29:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@78aab498]" name="login" duration-ms="5318" started-at="2019-01-10T01:29:36Z" finished-at="2019-01-10T01:29:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@78aab498]" name="teardown" is-config="true" duration-ms="2335" started-at="2019-01-10T01:29:42Z" finished-at="2019-01-10T01:29:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
-    </test> <!-- Free CRM Application - Test Cases for Edge -->
   </suite> <!-- freecrm.com Web Application  - Test Automation Test Suite -->
 </testng-results>

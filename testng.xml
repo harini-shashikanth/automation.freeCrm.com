@@ -11,6 +11,7 @@
 			<class name="com.freecrm.qa.testCases.MyHomePageTest"></class>
 		</classes>
 	</test>
+	<!-- 
 	<test thread-count="1" name="Free CRM Application - Test Cases for Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -32,4 +33,5 @@
 			<class name="com.freecrm.qa.testCases.MyHomePageTest"></class>
 		</classes>
 	</test>
+	 -->
 </suite>
