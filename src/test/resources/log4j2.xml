@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config"
+	status="warn">
+	<Appenders>
+		<File name="FILE" fileName="${sys:user.home}/logs/com.freecrm.qa.log"
+			append="false">
+			<PatternLayout
+				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} :%L - %m%n" />
+		</File>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="all">
+			<AppenderRef ref="Console" level="all" />
+			<AppenderRef ref="FILE" level="debug" />
+		</Root>
+	</Loggers>
+</Configuration>
