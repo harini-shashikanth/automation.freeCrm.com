@@ -11,7 +11,7 @@
 			<class name="com.freecrm.qa.testCases.MyHomePageTest"></class>
 		</classes>
 	</test>
-	<test thread-count="2" name="Free CRM Application - Test Cases for Chrome">
+	<test thread-count="1" name="Free CRM Application - Test Cases for Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.freecrm.qa.testCases.LoginPageTest"></class>
@@ -25,7 +25,7 @@
 			<class name="com.freecrm.qa.testCases.MyHomePageTest"></class>
 		</classes>
 	</test>
-	<test thread-count="2" name="Free CRM Application - Test Cases for Edge">
+	<test thread-count="1" name="Free CRM Application - Test Cases for Edge">
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="com.freecrm.qa.testCases.LoginPageTest"></class>

@@ -39,6 +39,11 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.6</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.6</version>
+		</dependency>
 	</dependencies>
 	<!-- Integration of Maven (Surefire) test with TestNG XML -->
 	<build>

@@ -10,6 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
@@ -103,7 +104,9 @@ public class Browser {
 			 * 
 			 * 1. add the capability to ignore zoom settings - through code
 			 * 
-			 * 2. add the capability to ensure clean session i.e., delete cookies etc..
+			 * 2. Cookies are not deleted when driver.manage().deleteAllCookies() is
+			 * invoked. Workaround is adopted below to add the capability to ensure clean
+			 * session
 			 * 
 			 * 3. MANUAL: set the add the domain freecrm.com to the list of trusted sites in
 			 * IE. Open IE and manually to the list of trusted sites under IE -> Internet
@@ -119,7 +122,14 @@ public class Browser {
 			driver = new InternetExplorerDriver(ieOptions);
 			break;
 		case Browser.EDGE:
-			driver = new EdgeDriver();
+			/*
+			 * Edge needs additional settings to work properly. Cookies are not deleted when
+			 * driver.manage().deleteAllCookies() is invoked. So the workaround below is
+			 * adopted to open browser in private mode.
+			 */
+			EdgeOptions edgeOptions = new EdgeOptions();
+			edgeOptions.setCapability("InPrivate", true);
+			driver = new EdgeDriver(edgeOptions);
 			break;
 		default:
 			throw new RuntimeException(browser + " browser not supported currently.");
