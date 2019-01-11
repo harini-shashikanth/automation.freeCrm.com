@@ -8,3 +8,4 @@ com\freecrm\qa\common\Config.class
 com\freecrm\qa\common\PageValues.class
 com\freecrm\qa\pages\MyHomePage.class
 com\freecrm\qa\pages\Page.class
+com\freecrm\qa\common\ExcelUtil.class

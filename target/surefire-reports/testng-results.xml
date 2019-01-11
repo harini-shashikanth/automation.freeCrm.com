@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="freecrm.com Web Application  - Test Automation Test Suite" duration-ms="74144" started-at="2019-01-10T04:54:40Z" finished-at="2019-01-10T04:55:54Z">
+  <suite name="freecrm.com Web Application  - Test Automation Test Suite" duration-ms="128208" started-at="2019-01-11T19:31:43Z" finished-at="2019-01-11T19:33:51Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases for Firefox" duration-ms="74144" started-at="2019-01-10T04:54:40Z" finished-at="2019-01-10T04:55:54Z">
-      <class name="com.freecrm.qa.testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="12229" started-at="2019-01-10T04:54:40Z" finished-at="2019-01-10T04:54:52Z">
+    <test name="Free CRM App Test Cases for Firefox" duration-ms="128208" started-at="2019-01-11T19:31:43Z" finished-at="2019-01-11T19:33:51Z">
+      <class name="com.freecrm.qa.testCases.MyHomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="setup" is-config="true" duration-ms="23130" started-at="2019-01-11T19:31:44Z" finished-at="2019-01-11T19:32:07Z">
           <params>
             <param index="0">
               <value>
@@ -17,47 +17,58 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageContentTest()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="loginPageContentTest" duration-ms="334" started-at="2019-01-10T04:54:52Z" finished-at="2019-01-10T04:54:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageContentTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2176" started-at="2019-01-10T04:54:53Z" finished-at="2019-01-10T04:54:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="11183" started-at="2019-01-10T04:54:56Z" finished-at="2019-01-10T04:55:07Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="addContactTest" duration-ms="11199" started-at="2019-01-11T19:32:07Z" data-provider="getNewContactTestData" finished-at="2019-01-11T19:32:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="login" duration-ms="5439" started-at="2019-01-10T04:55:07Z" data-provider="getTestDataFromExcel" finished-at="2019-01-10T04:55:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[harini]]>
+                <![CDATA[Mrs.]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[harini]]>
+                <![CDATA[Harini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rao]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T2E]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CEO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[510-000-1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[harini.shashikanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[harinishashikanth]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2323" started-at="2019-01-10T04:55:12Z" finished-at="2019-01-10T04:55:14Z">
+        </test-method> <!-- addContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="teardown" is-config="true" duration-ms="2060" started-at="2019-01-11T19:32:18Z" finished-at="2019-01-11T19:32:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="11689" started-at="2019-01-10T04:55:14Z" finished-at="2019-01-10T04:55:26Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="setup" is-config="true" duration-ms="17401" started-at="2019-01-11T19:32:20Z" finished-at="2019-01-11T19:32:38Z">
           <params>
             <param index="0">
               <value>
@@ -67,28 +78,58 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="login" duration-ms="5602" started-at="2019-01-10T04:55:26Z" data-provider="getTestDataFromExcel" finished-at="2019-01-10T04:55:32Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="addContactTest" duration-ms="10434" started-at="2019-01-11T19:32:38Z" data-provider="getNewContactTestData" finished-at="2019-01-11T19:32:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[harini2]]>
+                <![CDATA[Miss]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[harini2pwd]]>
+                <![CDATA[Tulsi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rao]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T2E]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Director]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[510-111-1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[tulsi.rao@yahoo.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tulsirao]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2423" started-at="2019-01-10T04:55:32Z" finished-at="2019-01-10T04:55:34Z">
+        </test-method> <!-- addContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="teardown" is-config="true" duration-ms="2285" started-at="2019-01-11T19:32:48Z" finished-at="2019-01-11T19:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="setUp" is-config="true" duration-ms="10424" started-at="2019-01-10T04:55:34Z" finished-at="2019-01-10T04:55:45Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="setup" is-config="true" duration-ms="17677" started-at="2019-01-11T19:32:50Z" finished-at="2019-01-11T19:33:08Z">
           <params>
             <param index="0">
               <value>
@@ -98,28 +139,119 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="login" duration-ms="6791" started-at="2019-01-10T04:55:45Z" data-provider="getTestDataFromExcel" finished-at="2019-01-10T04:55:51Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="addContactTest" duration-ms="10412" started-at="2019-01-11T19:33:08Z" data-provider="getNewContactTestData" finished-at="2019-01-11T19:33:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[harini3]]>
+                <![CDATA[Miss]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[wrongPwd!]]>
+                <![CDATA[Taarini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rao]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T2E]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Additional Director]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[510-222-1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[taarini.rao@yahoo.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[taarinirao]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.LoginPageTest@1fe20588]" name="teardown" is-config="true" duration-ms="2970" started-at="2019-01-10T04:55:51Z" finished-at="2019-01-10T04:55:54Z">
+        </test-method> <!-- addContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="teardown" is-config="true" duration-ms="2494" started-at="2019-01-11T19:33:19Z" finished-at="2019-01-11T19:33:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="setup" is-config="true" duration-ms="17326" started-at="2019-01-11T19:33:21Z" finished-at="2019-01-11T19:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="addContactTest" duration-ms="10444" started-at="2019-01-11T19:33:38Z" data-provider="getNewContactTestData" finished-at="2019-01-11T19:33:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shashikanth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rao]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T2E]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Administrative Officer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[510-333-1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[shashikanth.h.rao@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[shashikanthhrao]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.qa.testCases.MyHomePageTest@6ce139a4]" name="teardown" is-config="true" duration-ms="2602" started-at="2019-01-11T19:33:49Z" finished-at="2019-01-11T19:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.freecrm.qa.testCases.MyHomePageTest -->
     </test> <!-- Free CRM App Test Cases for Firefox -->
   </suite> <!-- freecrm.com Web Application  - Test Automation Test Suite -->
 </testng-results>

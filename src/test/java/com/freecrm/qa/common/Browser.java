@@ -206,4 +206,9 @@ public class Browser {
 			e.printStackTrace();
 		}
 	}
+
+	public static void switchToFrame(WebDriver driver, String frameName) {
+		driver.switchTo().frame(frameName);
+	}
+
 }

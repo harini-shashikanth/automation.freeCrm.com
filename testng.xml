@@ -6,8 +6,8 @@
 	</listeners>
 	<test thread-count="1" name="Free CRM App Test Cases for Firefox">
 		<parameter name="browser" value="firefox" />
-		<classes>
-			<class name="com.freecrm.qa.testCases.LoginPageTest"></class>
+		<classes>			
+			<class name="com.freecrm.qa.testCases.LoginPageTest"></class>			
 			<class name="com.freecrm.qa.testCases.MyHomePageTest"></class>
 		</classes>
 	</test>
@@ -33,5 +33,5 @@
 			<class name="com.freecrm.qa.testCases.MyHomePageTest"></class>
 		</classes>
 	</test>
-	 -->
+	  -->
 </suite>

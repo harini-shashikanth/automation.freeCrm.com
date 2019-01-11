@@ -45,7 +45,6 @@ public class LoginPage extends Page {
 	public LoginPage(WebDriver webDriver) {
 		this.driver = webDriver;
 		PageFactory.initElements(driver, this);
-
 	}
 
 	public MyHomePage login(String un, String pwd) {
