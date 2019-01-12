@@ -45,7 +45,7 @@ public class MyHomePageTest {
 	@DataProvider
 	public Object[][] getNewContactTestData() {
 
-		return ExcelUtil.getTestData("new contact");
+		return ExcelUtil.getTestData(Config.getProperty("testdata.excel.sheet.for.new.contact"));
 	}
 
 	@AfterMethod
