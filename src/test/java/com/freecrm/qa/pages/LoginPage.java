@@ -27,9 +27,6 @@ public class LoginPage extends Page {
 	@FindBy(xpath = "//a[contains(text(),'Contact')]")
 	private WebElement contactLnk;
 
-	@FindBy(xpath = "//a[contains(text(),'Support')]")
-	private WebElement supportLnk;
-
 	@FindBy(name = "username")
 	WebElement username;
 
@@ -113,13 +110,7 @@ public class LoginPage extends Page {
 		this.contactLnk = contactLnk;
 	}
 
-	public WebElement getSupportLnk() {
-		return supportLnk;
-	}
-
-	public void setSupportLnk(WebElement supportLnk) {
-		this.supportLnk = supportLnk;
-	}
+	
 
 	public WebElement getUsername() {
 		return username;

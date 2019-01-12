@@ -78,12 +78,6 @@ public class LoginPageTest {
 		expected = PageValues.getProperty("loginPage.contactLnk.text");
 		Assert.assertEquals(actual, expected);
 
-		// loginPageSupportLnk
-		log.debug("loginPageSupportLnk test case");
-		actual = loginPage.getSupportLnk().getText();
-		expected = PageValues.getProperty("loginPage.supportLnk.text");
-		Assert.assertEquals(actual, expected);
-
 	}
 
 	@Test(priority = 1, dataProvider = "login credentials")
@@ -93,7 +87,7 @@ public class LoginPageTest {
 		loginPage.login(username, password);
 	}
 
-	@DataProvider(name="login credentials")
+	@DataProvider(name = "login credentials")
 	public Object[][] getTestDataFromExcel() {
 		log.debug("inside dataprovider method");
 		Object data[][] = ExcelUtil.getTestData(Config.getProperty("testdata.excel.sheet.for.login"));
