@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.freecrm.qa.testCases.NewContactPageTest">
+        <methods>
+          <include name="addContactTest"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testCases.NewContactPageTest -->
+      <class name="com.freecrm.qa.testCases.ContactListPageTest">
+        <methods>
+          <include name="selectContactByNameTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testCases.ContactListPageTest -->
+      <class name="com.freecrm.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="loginPageContentTest"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testCases.LoginPageTest -->
+      <class name="com.freecrm.qa.testCases.MyHomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testContentInTopMenuPanelInUserPages"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.testCases.MyHomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -20,21 +20,22 @@ import com.freecrm.qa.pages.LoginPage;
 
 public class LoginPageTest {
 	private static Logger log = LogManager.getLogger(LoginPageTest.class.getName());
-	WebDriver driver;
-	LoginPage loginPage;
+
+	public LoginPage loginPage;
 
 	@BeforeMethod
 	@Parameters("browser")
 	public void setUp(String browser) {
-		log.debug("In setUp(). Initializing browser: " + browser);
-		driver = Browser.initializeBrowser(browser);
-		loginPage = new LoginPage(driver);
-		log.debug("Login Page Loaded");
+		log.info("Set Up: Initializing browser: " + browser);
+		WebDriver driver = Browser.initializeBrowser(browser);
+		loginPage = new LoginPage();
+		loginPage.setDriver(driver);
+		log.info("Login Page Loaded");
 	}
 
-	@Test(priority = 0)
+	@Test
 	public void loginPageContentTest() {
-		log.debug("loginPageContentTest:");
+		log.info("loginPageContentTest:");
 		String actual = null;
 		String expected = null;
 
@@ -80,25 +81,25 @@ public class LoginPageTest {
 
 	}
 
-	@Test(priority = 1, dataProvider = "login credentials")
-	public void login(String username, String password) {
-		// String username = Config.getProperty("default.username");
-		// String password = Config.getProperty("default.password");
-		loginPage.login(username, password);
+	@Test(dataProvider = "getLoginCredentialsFromExcel")
+	public void loginTest(String username, String password, String name) {
+		log.info("Login Test:  " + "Username:" + username + " Password:" + password + " Name:" + name);
+		loginPage.login(username, password, name);
 	}
 
-	@DataProvider(name = "login credentials")
-	public Object[][] getTestDataFromExcel() {
-		log.debug("inside dataprovider method");
-		Object data[][] = ExcelUtil.getTestData(Config.getProperty("testdata.excel.sheet.for.login"));
+	@DataProvider
+	public Object[][] getLoginCredentialsFromExcel() {
+		String sheet = Config.getProperty("testdata.excel.sheet.for.login");
+		log.debug("Retrieving Test Data from the sheet" + sheet + "of configured Excel file");
+		Object data[][] = ExcelUtil.getTestData(sheet);
 		return data;
 	}
 
 	@AfterMethod
 	public void teardown() {
-		Capabilities capabilities = ((EventFiringWebDriver) driver).getCapabilities();
+		Capabilities capabilities = ((EventFiringWebDriver) loginPage.getDriver()).getCapabilities();
 		String browser = capabilities.getBrowserName();
-		log.debug("In teardown(). Closing browser " + browser);
-		driver.quit();
+		log.info("In teardown(). Closing browser " + browser);
+		loginPage.getDriver().quit();
 	}
 }

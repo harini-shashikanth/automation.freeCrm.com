@@ -1,0 +1,10 @@
+com\freecrm\qa\pages\contact\ContactListPage.class
+com\freecrm\qa\pages\contact\ViewContact.class
+com\freecrm\qa\pages\contact\NewContactPage.class
+com\freecrm\qa\testCases\AbstractTopMenuPanelInUserPagesTest.class
+com\freecrm\qa\testCases\NewContactPageTest.class
+com\freecrm\qa\testCases\ContactListPageTest.class
+com\freecrm\qa\pages\contact\FullSearchForm.class
+com\freecrm\qa\pages\contact\FullSearchResults.class
+com\freecrm\qa\pages\contact\NewCombinedForm.class
+com\freecrm\qa\panels\AbstractTopMenuPanelInUserPages.class

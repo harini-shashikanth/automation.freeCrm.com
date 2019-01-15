@@ -11,9 +11,9 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 import com.freecrm.qa.testCases.LoginPageTest;
 
 public class WebEventListener implements WebDriverEventListener {
-	
+
 	private static Logger log = LogManager.getLogger(LoginPageTest.class.getName());
-	
+
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		log.trace("Before navigating to: '" + url + "'");
 	}
@@ -64,11 +64,11 @@ public class WebEventListener implements WebDriverEventListener {
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
-		log.trace("Trying to find Element By : " + by.toString());
+		log.trace("Start of Find By:  " + by.toString());
 	}
 
 	public void afterFindBy(By by, WebElement element, WebDriver driver) {
-		log.trace("Found Element By : " + by.toString());
+		log.trace("End of Find By : " + by.toString() + " Text: " + element.getText());
 	}
 
 	/*
